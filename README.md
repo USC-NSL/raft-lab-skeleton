@@ -21,12 +21,12 @@ The version is not a hard requirement, but your lab will be graded on a machine 
 
 The lab depends on a few external libraries, primarily `grpc`, `googletest`, and `spdlog`. The setup script is provided for your convenience. The setup script will clone `googletest` and `spdlog` as git submodules and they will live inside this project folder. 
 
-To install `grpc`, run `install_grpc.sh`. Be aware, `grpc`-related binaries/header files will be installed to `$HOME/.local`. Use the script with your own caution.
-
 ``` bash
 # cd to the root directory
 ./setup.sh
 ```
+
+To install `grpc`, run `install_grpc.sh`. Be aware, `grpc`-related binaries/header files will be installed to `$HOME/.local`. Use the script with your own caution.
 
 ### Configure
 
